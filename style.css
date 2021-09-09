@@ -1,0 +1,24 @@
+section{
+    width: 60vw;
+    margin: 200px auto;
+    text-align: center;
+}
+button{
+    border: 2px solid black;
+    font-size: 3rem;
+    padding:  10px;
+    transition: border-radius,transform 1s;
+    transition-delay: 0.2s;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    box-shadow: 5px 5px 10px rgb(104,104,104); 
+}
+button:hover{
+    background-color: #48cae4;
+    border-radius: 50%;
+    color: white;
+    /* border-radius: 3px; */
+    cursor: pointer;
+    transform: scale(1.5);
+    transform: translate(50px);
+}
